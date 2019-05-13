@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+<head>
+<title>Mostrar Aplicaciones</title>  
+<meta charset="utf-8"/>
+<meta charset="viewport" content="width=device-width,initial-scale=1">
+<!---grupo css--->
+<link rel="stylesheet" href="css/tema.proyecto.min.css"/>
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css"/>
+<link rel="stylesheet" href="css/theme app4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<link rel="stylesheet" href="js/temaapp7.min.css"/>
+
+<!---grupo js--->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="phonegap.js"></script><!--necesario*/-->
+
+<!---Menu Lateral--->
+<link rel="stylesheet" href="css/sldr.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jsplug.js"></script>
+<script type="text/javascript">
+</script>
+</head>
+
+<body>
+<div data-role="page" id="Principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>MOSTRAR APLICACIONES</h1>
+</div>
+
+ <div class="container">
+ <div id="sidebar">
+ <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+ <li class="ui-first-child ui-last-child">
+  <a href="#Pagina1" class="ui-btn ui-icon-right ui-icon-carat-r">
+    <h2>app1-Datos del dispositivo</h2>
+    </a>
+    </li>
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina2" class="ui-btn ui-icon-right ui-icon-carat-r">
+    <h2>app5-Advertencias del dispositivo</h2>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina3" class="ui-btn ui-icon-right ui-icon-carat-r">
+    <h2>app6-dezlizar</h2>
+    </a>
+    </li>
+   </ul>
+  </div>
+  
+  <div class="main-content">
+  <div class="swipe-area"></div>
+    <a href="#" data-toggle=".container" id="sidebar-toggle">
+       <span class="bar"></span>
+       <span class="bar"></span>
+       <span class="bar"></span>
+      </a>
+      </div>
+      </div>
+      
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <h4>app7-Mostrar Aplicaciones</h4>
+  <h4>Sara Ahuehuetl Pantle</h4>
+  <img src="res/android/mdpi.png"  width="46"  height="46">
+   </div>
+  </div>
+</div>
+
+<!---Pagina 1--->
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>app1-Datos del dispositivo</h1>
+    </div>
+     <center>
+    <div data-role="main" class="iu-content" >
+   </div>
+<div data-role="main" class="ui-content">
+<div id="disp">
+<table width="200" border="1" id="datos">
+<tr>
+<td width="83">Datos</td>
+<td width="101">Dispositivos</td>
+</tr>
+<tr>
+<td>Nombre</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Phonegab</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Plataforma</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>UUUID</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+</div>
+    </center>
+    <center>
+   
+
+<div data-role="main" class="iu-content"  align="center">
+  <div style="width:30%;">
+   <ul data-role="controlgroup"   data-type="vertical" data-theme="a">
+   </ul>
+</div>
+</div>
+ </center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <h4>Sara Ahuehuetl Pantle</h4><img src="res/android/mdpi.png" width="46"  height="46">
+   </div>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Advertencia del Dispositivo</h1>
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="#" data-role="button" id="beep">
+<h2>Beep</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#" data-role="button" id="vibrar">
+<h2>Vibrar</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+             <div data-role="main" class="iu-content" align="center">
+  <div style="width:30%;">
+   <ul data-role="controlgroup"   data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+   
+    </li>
+   </ul>
+ </div>
+ </div>
+
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <h4>Sara Ahuehuetl Pantle</h4><img src="res/android/mdpi.png"  width="46"  height="46">
+   </div>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>dezlizar</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Deslizar</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>Sara Ahueheutl Pantle</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
+<div data-role="page" id="page3" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Acciones</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<div>
+<ul data-role="controlgroup" data-type="vertical" data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#page4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Izquierda</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Derecha</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>Sara Ahueheutl Pantle</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
+<div data-role="page" id="page4" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Desliza a la izquierda</h1>
+</div>
+
+<div data-role="content" align="center">
+<div id="izquierda" style="width:90%;height:300px;background:#222555;">
+</div>
+
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>Sara Ahueheutl Pantle</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
+<div data-role="page" id="page5" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Desliza a la derecha</h1>
+</div>
+
+<div data-role="content" align="center">
+<div id="derecha" style="width:90%;height:300px;background:#22AA00;">
+</div>
+</div>
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>Sara Ahueheutl Pantle</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+</body>
+</html>
